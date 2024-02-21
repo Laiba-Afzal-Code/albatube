@@ -1,0 +1,133 @@
+.postSK {
+    width: 274px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    animation: sekelton 1s ease infinite alternate;
+}
+
+@keyframes sekelton {
+    to {
+        opacity: 0.5;
+    }
+}
+
+.postImgSK {
+    background-color: gray;
+    width: 274px;
+    height: 153px;
+}
+
+.postInfoSK {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.postAvatar {
+    background-color: gray;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.postDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.postTextSk {
+    background-color: gray;
+    width: 90%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.postTextSk.sm {
+    width: 50%;
+}
+
+.topSk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    animation: sekelton 1s ease infinite alternate;
+}
+
+.topSKIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.topSKImg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.sodeSK {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: sekelton 1s ease infinite alternate;
+}
+
+.sideSKitem {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.custom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ball 0.5s ease infinite alternate;
+}
+
+.balls {
+    display: flex;
+}
+
+.ball1 {
+    animation-delay: 0.1s;
+}
+
+.ball2 {
+    animation-delay: 0.2s;
+}
+
+@keyframes ball {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.customText {
+    font-weight: 100px;
+}

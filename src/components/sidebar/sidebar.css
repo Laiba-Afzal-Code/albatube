@@ -1,0 +1,30 @@
+.sidebar {
+    flex: 0.5;
+    background-color: black;
+    color: rgb(164, 162, 162);
+    height: calc(100vh - 60px);
+    position: sticky;
+    left: 0;
+    top: 60px;
+    z-index: 999;
+}
+
+.sidebarwapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemSidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.itemSidebar:hover {
+    background-color: rgb(70, 69, 69);
+    border-radius: 12px;
+}
