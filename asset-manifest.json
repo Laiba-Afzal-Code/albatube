@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/albatube/static/css/main.c2d63aa0.css",
+    "main.js": "/albatube/static/js/main.02d446fc.js",
+    "index.html": "/albatube/index.html",
+    "main.c2d63aa0.css.map": "/albatube/static/css/main.c2d63aa0.css.map",
+    "main.02d446fc.js.map": "/albatube/static/js/main.02d446fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2d63aa0.css",
+    "static/js/main.02d446fc.js"
+  ]
+}
